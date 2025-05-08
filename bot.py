@@ -6,7 +6,7 @@ from aiogram.utils import executor
 import asyncio
 import os
 
-API_TOKEN = os.getenv("API_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
+API_TOKEN = os.getenv("API_TOKEN",7909092865:AAE4UNZ5nOnutpVloC-dot8JOvn6tTagK8w
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
@@ -38,3 +38,4 @@ async def on_user_join(event: ChatMemberUpdated):
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
+    
